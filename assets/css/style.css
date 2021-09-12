@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 80vh;
+    width: 100vw;
+}
+
+/* header of the page */
+header{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+main {
+    padding: .9rem !important;
+    height: 100%;
+    border: solid black 1px;
+}
+
+section {
+    height: 100%;
+}
+
+
+/* styling for the search section */
+#search *{
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+#searchPart {
+    height: 35%;
+    border-bottom: 3px black solid;
+    margin-bottom: 10px;;
+}
+#searchPart input {
+    padding: .3rem;
+}
+#searchPart div {
+    font-size: 2rem;
+}
+
+
+/* styling for the recentlty search cities */
+#history{
+    height: 65%;
+}
+
+/* styling for the current days weather box */
+#display * {
+    width: 100%;
+}
+#display h4 {
+    padding-top: 0.5rem;
+    font-weight: 600;
+}
+
+/* current weather box styling */
+#currentWeather {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    height: 45%;
+    padding: 10px;
+    align-content: space-between;
+}
+#currentWeather div{
+    width: 100%;
+}
+#currentWeather h2 {
+    width: fit-content;
+}
+#currentWeather img {
+    display: inline-block;
+    height: 4rem;
+    width: auto;
+    position: relative;
+    top: -5px;
+}
+
+
+/* styling for the forecasted days box */
+#forecast{
+    height: 55%;
+    margin: 0;
+}
+#forecast div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    background-color: #2a2a72;
+    color: white;
+    height: min-content;
+    padding: .2rem;
+    justify-content: center;
+}
+#forecast span{
+    font-size: 20px;
+}
+#forecast div img {
+    height: 64px;
+    width: auto;
+    justify-self: center;
+}
+
+/* the recently searched buttons */
+.historyBtn{
+    background-color: #0d6efd;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* uv ray colors */
+.low{
+    background-color: green;
+}
+.mild{
+    background-color: yellow;
+}
+.middle{
+    background-color: orange;
+}
+.bad{
+    background-color: red;
+}
+.hurtfull{
+    background-color: purple;
+}
