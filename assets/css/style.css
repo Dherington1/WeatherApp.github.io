@@ -24,7 +24,7 @@ header{
 main {
     padding: .9rem !important;
     height: 100%;
-    border: solid forestgreen 1px;
+    border: solid black 1px;
 }
 
 section {
@@ -64,12 +64,14 @@ section {
     padding-top: 0.5rem;
     font-weight: 600;
 }
+
+/* current weather box styling */
 #currentWeather {
     display: flex;
     flex-wrap: wrap;
     border: solid 1px black;
     height: 45%;
-    padding: 0.5rem;
+    padding: 10px;
     align-content: space-between;
 }
 #currentWeather div{
@@ -96,15 +98,43 @@ section {
     display: flex;
     flex-wrap: wrap;
     height: 70%;
-    background-color: navy;
+    background-color: #2a2a72;
     color: white;
     height: min-content;
     padding: .2rem;
     justify-content: center;
 }
-
+#forecast span{
+    font-size: 20px;
+}
 #forecast div img {
-    height: 32px;
+    height: 64px;
     width: auto;
     justify-self: center;
+}
+
+/* the recently searched buttons */
+.historyBtn{
+    background-color: #0d6efd;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* uv ray colors */
+.low{
+    background-color: green;
+}
+.mild{
+    background-color: yellow;
+}
+.middle{
+    background-color: orange;
+}
+.bad{
+    background-color: red;
+}
+.hurtfull{
+    background-color: purple;
 }

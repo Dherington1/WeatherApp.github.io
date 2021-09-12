@@ -24,29 +24,26 @@
                 <div>Search for a City:</div>
                 <input type="text" class="form-control" id="input" placeholder="Enter a City Here">
                 <button class="btn btn-primary" id="searchBtn" type="submit" >Search</button>
+                <p hidden id="wrongInput" class="" > Please enter a valid city </p>
             </div>
-            <div id="history">
+            <div id="history" >
                 <!-- this is hot bar for recently searched cities -->
             </div>
         </div>
 
         <div id="display" class="col-9">
             <div id="currentWeather">
-                <!-- <div>Today:</div>
-                <div>Temp:</div>
-                <div>Wind:</div>
-                <div>Humidity:</div>
-                <div>UV Index:</div> -->
+                <!-- Current days information  -->
             </div>
             <div class="">
                 <h4>5-Day Forecast:</h4>
             </div>
             <div id="forecast" class="d-flex justify-content-between gap-3">
-                <div class="day1"></div>
-                <div class="day2"></div>
-                <div class="day3"></div>
-                <div class="day4"></div>
-                <div class="day5"></div>
+                <div id="day1"></div>
+                <div id="day2"></div>
+                <div id="day3"></div>
+                <div id="day4"></div>
+                <div id="day5"></div>
             </div>
         </div>
 
